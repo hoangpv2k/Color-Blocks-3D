@@ -1,8 +1,9 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public interface ILevel
+public class DoorManager : MonoBehaviour
 {
-    string ID { get; }
+
 }

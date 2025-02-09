@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public interface ILevel
+public class Spaces
 {
-    string ID { get; }
+    public List<int> spaceIndexes;
 }

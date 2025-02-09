@@ -2,17 +2,8 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class BaseLevel : MonoBehaviour
+public abstract class BaseLevel : ScriptableObject, ILevel
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+    [SerializeField] protected string id;
+    public string ID => id;
 }
