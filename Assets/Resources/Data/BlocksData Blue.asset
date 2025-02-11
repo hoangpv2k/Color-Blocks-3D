@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e09809026720e2f4f9d49fb76255cb55, type: 3}
+  m_Name: BlocksData Blue
+  m_EditorClassIdentifier: 
+  datas: []
+  stickyPrefab: {fileID: 0}
+  movingBlockerMaterial: {fileID: 0}
+  movingBlockerOutlineColor: {r: 0, g: 0, b: 0, a: 0}
+  blockGroup_1_prefab: {fileID: 0}
